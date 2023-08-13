@@ -5,7 +5,7 @@ Chat Messenger App
 ## Getting Started
 
 ```bash
-conda create --prefix ./env
+conda create --prefix ./env jupyter
 ```
 
 ```bash
@@ -23,7 +23,7 @@ conda activate /PATH_TO_PROJ/env
 
 ```bash
 gradio app.py
-# Note: you can also do `python app.py``, but it won't provide the automatic reload mechanism.
+# Note: you can also do `python app.py`, but it won't provide the automatic reload mechanism.
 ```
 
 ### Run Jupyter Notebook
